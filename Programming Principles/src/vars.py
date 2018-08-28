@@ -23,11 +23,11 @@ Date:
 ### Main
 def main():
     # Magic numbers
-    sX = "String"
+    sA = "String"
     # Initialisation
     
     # Output
-    print("The String I made was \"%s\"" % (sX))
+    print("The String I choose is \"%s\".\n" % (sA))
 ####################################################
 ### start main
 if __name__ == '__main__':
