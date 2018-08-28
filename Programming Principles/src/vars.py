@@ -27,6 +27,7 @@ def main():
     iB = 1
     dC = 1.
     bD = ((9 > 11) and (3 < 1)) or (type(iB) == type(dC))
+    lE = [1, 2, 3, "Test", True]
     # Initialisation
     
     # Output
@@ -34,7 +35,7 @@ def main():
     print("The Integer I choose is \"%i\".\n" % (iB))
     print("The Double I choose is \"%.2g\".\n" % (dC))
     print("The Boolean I choose is very complicated and equal to \"%r\".\n" % (bD))
-    
+    print("I have made the following beautiful list \"%r\".\n" % (lE))
 ####################################################
 ### start main
 if __name__ == '__main__':
