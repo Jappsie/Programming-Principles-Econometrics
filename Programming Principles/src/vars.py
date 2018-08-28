@@ -30,6 +30,7 @@ def main():
     lE = [1, 2, 3, "Test", True]
     lF = [[1, 2, 3], ["Nice", "Beautiful"]]
     mG = np.array([[1, 2], [3, 4]])
+    fnH = np.array
     # Initialisation
     
     # Output
@@ -40,6 +41,7 @@ def main():
     print("I have made the following beautiful list \"%r\".\n" % (lE))
     print("I have also made a 2-D list \"%r\".\n" % (lF))
     print("I also have a beautiful matrix: \"%r\".\n" % (mG))
+    print(fnH)
 ####################################################
 ### start main
 if __name__ == '__main__':
